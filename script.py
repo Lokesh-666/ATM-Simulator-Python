@@ -87,14 +87,9 @@ def main():
                         time.sleep(60)
                 else:
                     print("Please enter valid account Number!!")
-        # elif userAccountPresent.upper() == 'N':
-        #     ChoiceToOpenAccount = str(input("Do you wish to open an account here?"))
-        #     if ChoiceToOpenAccount.upper() == "Y":
-        #         OpenNewAccount()
-
-
-
-
+        elif userAccountPresent.upper() == 'N':
+            print("Please open account at our Bank")
+            print(" Contact us at +01 00000-00000")
 
 if __name__ == "__main__":
     main()
